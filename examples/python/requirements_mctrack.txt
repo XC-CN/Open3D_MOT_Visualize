@@ -1,0 +1,20 @@
+# MCTrack可视化工具依赖包
+
+# 必需依赖
+open3d>=0.18.0          # 3D数据处理和GUI框架
+numpy>=1.20.0           # 数值计算
+scipy>=1.7.0            # 科学计算（用于旋转变换）
+
+# 可选依赖（推荐）
+nuscenes-devkit         # nuScenes数据集工具包
+matplotlib>=3.5.0       # 可选：用于颜色处理
+opencv-python>=4.5.0    # 可选：图像处理
+
+# 开发和测试依赖（可选）
+pytest>=6.0.0          # 单元测试框架
+pytest-cov>=2.12.0     # 测试覆盖率
+
+# 注意:
+# 1. open3d 需要Python 3.8+
+# 2. nuscenes-devkit 需要单独安装
+# 3. 如果使用GPU加速，请安装对应版本的CUDA
